@@ -1,0 +1,38 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+// ----*---- Colors ----*---- //
+
+$primary:       #003C60;
+$secondary:     #8DBADC;
+$info:          #fff;
+
+
+// ----*---- Spacer ----*---- //
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+
+// ----*---- Gutters ----*---- //
+
+$grid-gutter-width: 1.5rem;
+$gutters: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 6,
+  5: $spacer * 13,
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

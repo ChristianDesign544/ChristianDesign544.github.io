@@ -1,0 +1,95 @@
+// ----*---- Custom CSS ----*---- //
+
+
+@import "custom";
+
+
+
+// ----*---- Font ----*---- //
+
+@font-face {
+	font-family: 'TrajanSans';
+	src: url('../fonts/TrajanSansPro-Semibold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// ----*---- Body ----*---- //
+
+body {
+	background-color: $primary;
+	font-family: "TrajanSans";
+	color: $info;
+}
+
+
+// ----*---- Utility ----*---- //
+
+.custom-line {
+	height: 6px;
+      background-color: $secondary;
+      width: 100%;
+      margin: 0 auto 30px;
+      opacity: 100%;
+  }
+
+/* Media Query for Large Screens (lg) */
+@media (min-width: 992px) {
+	.custom-line {
+		width: 90%;
+	}
+}
+
+
+// ----*---- Navbar ----*---- //
+
+.nav-flag1 {
+	width: 32px;
+}
+
+.nav-flag2 {
+	margin-left: 20px;
+	width: 32px;
+}
+
+.nav-link {
+	color: $info;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: $secondary;
+}
+
+.navbar-brand {
+	color: $info;
+}
+
+.navbar {
+	margin: 22px 0 20px 0;
+}
+
+.navbar-toggler {
+    border: transparent;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+/* Media Query for Large Screens (lg) */
+@media (max-width: 992px) {
+	.nav-col-space {
+		margin-top: 10px;
+	}
+	.nav-col-space2 {
+		margin-bottom: 10px;
+	}
+}
+
+
